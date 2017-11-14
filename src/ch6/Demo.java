@@ -8,6 +8,11 @@ import java.util.ArrayList;
  * ArrayList是javaAPI类
  * 1.可以自动调整大小
  * 2.只能那个携带对象,但编译器能够在i懂将primitive主数据类型包装成Object
+ * 3.ArrayList<Object>取出的Object都会被当作是Object这个类的实例，而不管原来是什么
+ * Arraylist<Animal> animal=new ArrayList<Animal>
+ *     animal.add(new Dog())//多态，ok
+ *     Dog samedog=animal.get(0)//编译报错
+ *     Animal samedog=animal.get(0)//ok
  */
 public class Demo {
     public static void main(String[] args) {

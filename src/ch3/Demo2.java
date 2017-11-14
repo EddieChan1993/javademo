@@ -28,7 +28,7 @@ public class Demo2 {
          * 创建Dog数组
          */
         Dog[] pets;//生命一个Dog数组变量
-        pets = new Dog[3];//创建大小为3的Dog类型数组，将其引用赋值给pets。
+        pets = new Dog[3];//创建大小为3的Dog类型数组<这不是创建Dog对象>，将其引用赋值给pets。
         // 有了dog引用，缺少实际的dog对象
         // 创建对象，并依次将对象引用复制给数组单元
         pets[0] = new Dog();

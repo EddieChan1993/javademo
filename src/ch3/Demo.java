@@ -27,10 +27,12 @@ public class Demo {
 
     /**
      * Dog myDog
+     * Dog为引用类型
      * 声明一个引用变量
-     * java虚拟机分配空间给引用变量，命名为myDog,该变量固定为Dog类型
+     * java虚拟机分配存储空间给引用变量，命名为myDog,该变量固定为Dog类型
      * new Dog()
-     * java虚拟机分配堆空间给新建立的Dog对象
+     * Dog为对象类型
+     * java虚拟机分配堆空间给新建立的Dog对象(Dog内容+他的继承类的内容)
      * =
      * 将该对象的引用地址赋值给mydog
      */
