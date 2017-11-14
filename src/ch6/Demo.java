@@ -5,12 +5,13 @@ import ch2.Dog;
 import java.util.ArrayList;
 
 /**
- * Created by Administrator on 2017-11-13.
+ * ArrayList是javaAPI类
+ * 1.可以自动调整大小
+ * 2.只能那个携带对象,但编译器能够在i懂将primitive主数据类型包装成Object
  */
 public class Demo {
     public static void main(String[] args) {
         ArrayList<Dog> myList = new ArrayList<Dog>();
-
         Dog s = new Dog();
         Dog b = new Dog();
 
