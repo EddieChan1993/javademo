@@ -10,7 +10,8 @@ public class Dog {
     String name;
 
     //方法
-    void bark() {
+    void bark(String a) {
+        int extra;//extra局部变量，a方法参数
         System.out.println("Ruff! Ruff!");
     }
 }
