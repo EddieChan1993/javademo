@@ -6,6 +6,7 @@ package ch2;
 public class Dog {
     //实例变量
     int size;
+    //String是对象类型
     String breed;
     String name;
 

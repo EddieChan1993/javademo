@@ -12,15 +12,15 @@ import java.io.IOException;
  */
 public class Demo1 {
     public static void main(String[] args) throws IOException {
-        FileWriter writer = new FileWriter("foo.txt");
+        FileWriter wr = new FileWriter("foo.txt");
 
-        writer.write("hello Foo");//直接写入到文件中
-        writer.write("hello Foo");//直接写入到文件中
-        writer.write("hello Foo");//直接写入到文件中
-        writer.write("hello Foo");//直接写入到文件中
+        wr.write("hello Foo");//直接写入到文件中
+        wr.write("hello Foo");//直接写入到文件中
+        wr.write("hello Foo");//直接写入到文件中
+        wr.write("hello Foo");//直接写入到文件中
         //这种方法有个弊端:
         //
 
-        writer.close();
+        wr.close();
     }
 }
